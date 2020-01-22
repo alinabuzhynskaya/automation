@@ -41,9 +41,9 @@ public class Student {
 		return minMark;
 	}
 
-	public BigDecimal getAverageMarks() {
-		
-		return null;
-	}
+//	public BigDecimal getAverageMarks() {
+//		
+//		return null;
+//	}
 
 }
