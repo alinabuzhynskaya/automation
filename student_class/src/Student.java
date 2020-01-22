@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.stream.IntStream;
 
 public class Student {
@@ -41,9 +43,11 @@ public class Student {
 		return minMark;
 	}
 
-//	public BigDecimal getAverageMarks() {
-//		
-//		return null;
-//	}
+	public BigDecimal getAverageMarks() {
+		int sum = totalSumOfMarks();
+		int number = getNumberOfMarks();
+		BigDecimal averageMark = new BigDecimal(sum).divide(new BigDecimal(number), 3, RoundingMode.UP);
+		return averageMark;
+	}
 
 }
