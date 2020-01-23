@@ -4,10 +4,10 @@ import java.util.stream.IntStream;
 
 public class Student {
 
-	String name;
-	int[] marks;
+	private String name;
+	private int[] marks;
 
-	public Student(String name, int[] marks) {
+	public Student(String name, int... marks) {
 		this.name = name;
 		this.marks = marks;
 	}
