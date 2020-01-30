@@ -4,14 +4,25 @@
 /project_2_loops/.settings/
 /student_class/.settings/
 /customer/.settings/
+/Interfaces/.settings/
+/Recipe/.settings/
+/book_Reviews/.settings/
+/exersice_for_abstr_inter/.settings/
 
 /oop_alina/.classpath/
 /project_2_loops/.classpath/
 /student_class/.classpath/
 /customer/.classpath/
+/Interfaces/.classpath/
+/Recipe/.classpath/
+/book_Reviews/.classpath/
+/exersice_for_abstr_inter/.classpath/
 
 /oop_alina/bin/
 /project_2_loops/bin/
 /student_class/bin/
 /customer/bin/
-
+/Interfaces/bin/
+/Recipe/bin/
+/book_Reviews/bin/
+/exersice_for_abstr_inter/bin/
