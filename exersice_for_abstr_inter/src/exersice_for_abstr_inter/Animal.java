@@ -1,5 +1,5 @@
 package exersice_for_abstr_inter;
 
-public class Animal {
-
+public abstract class Animal {
+	abstract void bark();
 }
